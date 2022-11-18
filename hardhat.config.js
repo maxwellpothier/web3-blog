@@ -13,4 +13,7 @@ module.exports = {
 			chainId: 1337,
 		},
 	},
+	etherscan: {
+		apiKey: process.env.ETHERSCAN_KEY,
+	}
 };
